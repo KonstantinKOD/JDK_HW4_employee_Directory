@@ -33,7 +33,6 @@ public class EmployeeDirectory {
         for (Employee employee : employees) {
             if (employee.getExperience() != seaExp) {
                 result.add(employee);
-                cnt++;
             }
         }
         return result;
